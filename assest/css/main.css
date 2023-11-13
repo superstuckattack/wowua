@@ -1,28 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 body {
 	width: auto;
-}
-
-.nav_bg {
-	background: #211510 url("https://raw.githubusercontent.com/superstuckattack/wowua/main/assest/img/sitenav-bar-bg.jpg");
-	background-size: auto;
-	background-size: auto 100%;
-	background-size: auto 100%;
-	box-shadow: 0 0 10px rgba(0,0,0,.6);
-	height: 90px;
-	position: relative;
-	border: 1px solid rgba(68,47,38,.5);
-}
-
-.head-nav-link {
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-o-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-text-fill-color: transparent;
-	-o-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(top,#efd100 0,#e2a233 38%,#f0c328 60%,#fff1a3 86%,#ffe13e 100%);
-	background-size: 1em 1em;
-	color: #f8b700;
-	text-transform: uppercase;
-	font: bold 1 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font: 1em;
 }
