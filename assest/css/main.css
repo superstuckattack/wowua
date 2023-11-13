@@ -1,3 +1,14 @@
 body {
 	width: auto;
 }
+
+.nav_bg {
+	background: #211510 url("https://guardwow.ru/template/images/sitenav-bar-bg.jpg");
+	background-size: auto;
+	background-size: auto 100%;
+	background-size: auto 100%;
+box-shadow: 0 0 10px rgba(0,0,0,.6);
+height: 90px;
+position: relative;
+border: 1px solid rgba(68,47,38,.5);
+}
