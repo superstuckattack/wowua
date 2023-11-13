@@ -4,7 +4,7 @@ body {
 	width: auto;
 	font-family: 'Oswald', sans-serif;
 	font: 1em;
-	background: linear-gradient(0deg, rgba(50, 84, 115, 0.20) 0%, rgba(50, 84, 115, 0.20) 100%), linear-gradient(180deg, #325473 4.8%, #0F1A23 100%);
+	background: #17181D;
 	color: #fff;
 }
 
@@ -22,14 +22,7 @@ body {
 }
 
 @media (max-width: 991.98px) {
-	.main__video {
-	  top: 0;
-	  width: 100%;
-	  bottom: 0;
-	  z-index: -9999;
-	  position: fixed;
-	  display: none;
-	}
+
 }
 
 .navbar {
