@@ -6,15 +6,6 @@ body {
 	font: 1em;
 }
 
-.main-wrapper {
-	background: #140C09 url("https://raw.githubusercontent.com/superstuckattack/wowua/571e8102ebc1751caf59b2be7ec0832d90a5204c/assest/img/main-bg.svg") center top no-repeat;
-  	background-size: cover; /* Масштабувати зображення, щоб воно покривало весь фон */
-  	background-position: center; /* Вирівнювання зображення по центру */
- 	background-repeat: no-repeat; /* Заборонити повторення зображення */
-	width: auto;
-	height: 95vh;
-}
-
 .navbar {
     background-color: #172735;
 }
