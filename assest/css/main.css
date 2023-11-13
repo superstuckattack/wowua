@@ -8,12 +8,17 @@ body {
 	color: #fff;
 }
 
-.container-fluid {
-	
+.wrapper {
+	background-image: url('https://raw.githubusercontent.com/superstuckattack/wowua/main/assest/img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
 }
 
 @media (max-width: 991.98px) {
- 
+ 	.wrapper {
+		display: none;
+	}
 }
 
 .navbar {
@@ -30,4 +35,9 @@ body {
 
 .nav-link:hover {
 	color: rgba(255, 255, 255, .8);
+}
+
+.server_info {
+	background-color: rgba(23, 24, 29, .7);
+	padding-top: 4.3vh;
 }
