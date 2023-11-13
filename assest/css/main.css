@@ -5,3 +5,23 @@ body {
 	font-family: 'Oswald', sans-serif;
 	font: 1em;
 }
+
+.main-wrapper {
+	background: #140C09 url("") center top no-repeat;
+}
+
+.navbar {
+    background-color: #172735;
+}
+
+.active {
+	color: #fff;
+}
+
+.nav-link {
+	color: #007bff;
+}
+
+.nav-link:hover {
+	color: rgba(255, 255, 255, .8);
+}
