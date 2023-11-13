@@ -21,12 +21,12 @@ body {
 	}
 }
 
-.navbar {
-    background-color: #172735;
+.navbar-fluid {
+	background-color: #172735;
 }
 
-.active {
-	color: #fff;
+.navbar {
+    background-color: #172735;
 }
 
 .nav-link {
@@ -38,6 +38,6 @@ body {
 }
 
 .server_info {
-	background-color: rgba(23, 24, 29, .7);
+	background-color: rgba(23, 24, 29, .9);
 	padding-top: 4.3vh;
 }
