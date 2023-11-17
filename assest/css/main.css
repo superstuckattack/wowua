@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 
-.navbar-fluid {
+.navbar-fluid, .jumbotron {
 	background-color: #172531;
 }
 
@@ -18,7 +18,7 @@ body {
      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.mini-status-container {
+.mini-status-container, .slim-menu-container, .public-content-container, .last-update-container {
 	margin-top: 1.5em;
 }
 
@@ -34,6 +34,11 @@ body {
 	text-decoration: none;
 }
 
-.slim-menu-container {
-	margin-top: 1.5em;
+.nav a {
+	border-bottom: 1px solid rgba(255, 255, 255, .05);
 }
+
+hr {
+	border-bottom: 1px solid rgba(255, 255, 255, .05);
+}
+
