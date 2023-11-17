@@ -27,5 +27,13 @@ body {
 }
 
 .mini-status b {
-	font-size: 1.75em;
+	font-size: 3.25em;
+}
+
+.mini-status a:hover {
+	text-decoration: none;
+}
+
+.slim-menu-container {
+	margin-top: 1.5em;
 }
