@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+	width: auto;
+	font-family: 'Oswald', sans-serif;
+	font: 1em;
+	background: #17181D;
+	color: #fff;
+	position: relative;
+    height: 100%;
+}
+
+.navbar-fluidі {
+	background-color: #172531;
+}
+
+.navbar-toggler-icon {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.mini-status-container, .slim-menu-container, .public-content-container, .last-update-container {
+	margin-top: 1.5em;
+}
+
+.mini-status {
+	text-align: center;
+}
+
+.mini-status b {
+	font-size: 3.25em;
+}
+
+.mini-status a:hover {
+	text-decoration: none;
+}
+
+.nav a {
+	border-bottom: 1px solid rgba(255, 255, 255, .05);
+}
+
+hr {
+	border-bottom: 1px solid rgba(255, 255, 255, .05);
+}
+
+.jumbotron {
+	background-color: #002650;
+}
