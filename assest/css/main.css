@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 
-.navbar-fluidі {
+.navbar-fluid, .jumbotron {
 	background-color: #172531;
 }
 
@@ -42,6 +42,3 @@ hr {
 	border-bottom: 1px solid rgba(255, 255, 255, .05);
 }
 
-.jumbotron {
-	background-color: #002650;
-}
