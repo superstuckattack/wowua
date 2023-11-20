@@ -93,6 +93,10 @@ footer {
 	font-size: 10px;
 }
 
+.reg-wrapper {
+	height: 90vh;
+}
+
 .reg-title {
 	margin-top: 3em;
 }
