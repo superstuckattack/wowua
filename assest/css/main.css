@@ -22,6 +22,12 @@ body {
 	background-color: #172531;
 }
 
+.jumbotron {
+	background-image: url(https://instant-carry.com/wp-content/uploads/2023/08/Icecrown-Citadel-e1692221334509.webp);
+	background-size: cover;
+    background-position: center center;
+}
+
 .navbar-toggler-icon {
      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -55,6 +61,11 @@ hr {
 	text-align: center;
 	justify-content: space-between;
 	padding: 1em;
+}
+
+.sub-md {
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 .badge-secondary {
