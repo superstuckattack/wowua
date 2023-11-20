@@ -25,7 +25,8 @@ body {
 .jumbotron {
 	background-image: url(https://dotesports.com/wp-content/uploads/2023/06/WoW-WOTLK-Classic-Phase-3.png);
 	background-size: cover;
-    background-position: center center;
+    background-position: center;
+    color: #fff;
 }
 
 .navbar-toggler-icon {
@@ -84,4 +85,10 @@ hr {
 .sub-navbar a:hover {
 	text-decoration: none;
 	color: #0056b3;
+}
+
+footer {
+	text-align: center;
+	font-weight: 600;
+	font-size: 10px;
 }
