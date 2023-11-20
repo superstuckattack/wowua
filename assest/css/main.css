@@ -5,12 +5,20 @@ body {
 	font-family: 'Oswald', sans-serif;
 	font: 1em;
 	background: #17181D;
-	color: #fff;
+	color: #e0dbd2;
 	position: relative;
     height: 100%;
 }
 
-.navbar-fluid, .jumbotron {
+.nav-link {
+	color: #e0dbd2;
+}
+
+.nav-link:hover {
+	color: #0056b3;
+}
+
+.navbar-fluid, .jumbotron, .sub-navbar {
 	background-color: #172531;
 }
 
@@ -42,3 +50,27 @@ hr {
 	border-bottom: 1px solid rgba(255, 255, 255, .05);
 }
 
+.sub-navbar {
+	margin-top: 1.5em;
+	text-align: center;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+.badge-secondary {
+	background-color: #00aeff;
+}
+
+.sub-navbar-icon {
+	height: 26px;
+	width: 26px;
+}
+
+.sub-navbar a {
+	color: #e0dbd2;
+}
+
+.sub-navbar a:hover {
+	text-decoration: none;
+	color: #0056b3;
+}
