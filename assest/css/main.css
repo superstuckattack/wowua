@@ -46,7 +46,7 @@ li .nav-link:hover {
 .swiper {
 	width: 100%;
 	height: 100%;
-	background: #000;
+	background: #242424;
 }
 
 .swiper-slide {
@@ -114,6 +114,10 @@ li .nav-link:hover {
 
 .lead {
 	font-weight: 500;
+	text-shadow: #242424 1px 0 10px;
+}
+
+.text p, .swiper-slide title, .swiper-slide subtitle {
 	text-shadow: #242424 1px 0 10px;
 }
 
