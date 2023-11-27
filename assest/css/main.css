@@ -112,14 +112,11 @@ li .nav-link:hover {
 	text-shadow: #242424 1px 0 10px;
 }
 
-.lead {
+.lead, .title, .subtitle, .text {
 	font-weight: 500;
 	text-shadow: #242424 1px 0 10px;
 }
 
-.text p, .swiper-slide title, .swiper-slide subtitle {
-	text-shadow: #242424 1px 0 10px;
-}
 
 .jumb-btn {
 	background-color: #007bff;
