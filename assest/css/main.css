@@ -167,6 +167,10 @@ li .nav-link:hover {
 	text-align: center;
 }
 
+.news-body {
+	padding: 15px;
+}
+
 .news-body h5 {
 	font-size: 1.75em;
 	font-weight: 800;
@@ -177,6 +181,7 @@ li .nav-link:hover {
 }
 
 .news-poster {
+	padding-top: 10px;
 	width: auto;
 	height: auto;
 	max-width: 100%;
