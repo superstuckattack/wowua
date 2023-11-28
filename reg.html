@@ -48,7 +48,125 @@
       </div>      
     </div>
     <!-- NAVBAR end-->
+    <!-- Reg page -->
+    <div class="container">
+      <div class="reg-title-page">
+        <h3>Реєстрація</h3>
+        <span>Створити новий ігровий обліковий запис.</span>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-4 reg-form">
+          <form>
+            <div>                   
+                <div class="input-group">
+                    <span class="input-group">Ім'я користувача</span>
+                    <input type="text" class="form-control" pattern="{2,16}" required placeholder="Ім'я користувача"
+                           name="username">
+                </div>
+                <div class="input-group">
+                    <span class="input-group">Пароль</span>
+                    <input type="password" class="form-control" minlength="4" maxlength="16" required placeholder="Пароль"
+                           name="password">
+                </div>
+                <div class="input-group">
+                    <span class="input-group">Підтвердіть пароль</span>
+                    <input type="password" class="form-control" minlength="4" maxlength="16" required placeholder="Підтвердіть пароль"
+                           name="repassword">
+                </div>
+                <div class="input-group">
+                    <span class="input-group">Email</span>
+                    <input type="email" class="form-control" required placeholder="Email"
+                           name="email">
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-12 text-center">
+                    <div class="g-recaptcha" data-sitekey="6LcP2SUTAAAAAAKUzGqUaUMPsh9fT3J_vNDicOjw" style='margin:10px auto'>
+                      <iframe title="reCAPTCHA" role="presentation" name="a-w4enjt658zk0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcP2SUTAAAAAAKUzGqUaUMPsh9fT3J_vNDicOjw&amp;co=aHR0cHM6Ly93b3cuc3VteS51YTo0NDM.&amp;hl=en&amp;v=-QbJqHfGOUB8nuVRLvzFLVed&amp;size=normal&amp;cb=tt5r0g49o0uz" bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:0,&quot;h&quot;:0,&quot;abs_x&quot;:0,&quot;abs_y&quot;:0}" width="210" height="78" frameborder="0"></iframe>
+                    </div>
+                  </div>
+                </div>                        
+                <input name="submit" type="hidden" value="register">
+                <div class="text-center">
+                  <input type="submit" class="btn btn-success" value="Реєстрація">
+                </div>
+                <div class="row text-center">
+                  <!-- Button trigger modal -->
+                <a type="button" class="forgot-password-btn mx-auto" data-toggle="modal" data-target="#staticBackdrop">
+                  Відновити пароль
+                </a>
 
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Відновити пароль</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form action="#" method="post">
+                            <div class="input-group" bis_skin_checked="1">
+                                <span class="input-group">Ім'я користувача</span>
+                                <input type="text" class="form-control" placeholder="Ім'я користувача" name="username">
+                            </div>
+                            <div class="row" bis_skin_checked="1">
+                              <div class="col-md-12" bis_skin_checked="1">
+                                <div class="g-recaptcha" data-sitekey="6LcP2SUTAAAAAAKUzGqUaUMPsh9fT3J_vNDicOjw" style="margin:10px auto" bis_skin_checked="1">
+                                  <div style="width: 304px; height: 78px;" bis_skin_checked="1">
+                                    <div bis_skin_checked="1">
+                                      <iframe title="reCAPTCHA" role="presentation" name="a-w4enjt658zk0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcP2SUTAAAAAAKUzGqUaUMPsh9fT3J_vNDicOjw&amp;co=aHR0cHM6Ly93b3cuc3VteS51YTo0NDM.&amp;hl=en&amp;v=-QbJqHfGOUB8nuVRLvzFLVed&amp;size=normal&amp;cb=tt5r0g49o0uz" bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:0,&quot;h&quot;:0,&quot;abs_x&quot;:0,&quot;abs_y&quot;:0}" width="304" height="78" frameborder="0">
+                                      </iframe>
+                                    </div>
+                                    <textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">
+                                    </textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <input name="submit" type="hidden" value="restorepassword">
+                          </form>
+                            <button type="button" class="btn btn-success">Відновити пароль</button>
+                        </div>
+                        <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- -->
+                </div>
+                
+
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="pre-reg-info">
+            <div class="pre-reg-info-body">
+              <h5>ОЗНАЙОМТЕСЬ ПЕРЕД РЕЄСТРАЦІЄЮ</h5>
+              <hr>
+              <p>Реєструючись, ви автоматично надаєте адміністрації право на використання ваших персональних даних <b>та погоджуєтесь з усіма правилами.</b></p>
+              <p><b>Для авторизації на сервері</b> використовуйте ім'я користувача яке вказуєте при реєстрації, а не пошту, під якою Ви реєструвались!</p>
+              <p><b>Гра на сервері повністю безкоштовна</b> але ви можете зробити донат. Частина донатів йде на допомогу ЗСУ</p>
+            </div>
+            <a class="href-link-coonect" href="#">
+              <div class="guide-connect">
+                <div class="guide-connect-content">
+                  <div class="guide-connect-title">
+                    <h4>ІНСТРУКЦІЯ</h4>
+                    <p>Як швидко підключитись до сервера</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Reg page end -->
+    <!-- Footer -->
     <hr>
     <div class="container footer-container">
       <footer>
@@ -68,7 +186,7 @@
         <span>Ten Storms - 2023</span>
       </footer>
     </div>
-   
+    <!-- Footer end-->
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="./assest/js/bootstrap.bundle.min.js"></script>

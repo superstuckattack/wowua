@@ -205,3 +205,79 @@ footer > a:hover {
 	text-decoration: none;
 	color: #006CDF;
 }
+
+.reg-title-page {
+	padding-top: 3em;
+}
+
+.reg-title-page h3 {
+	font-size: 1.563em;
+	font-weight: 800;
+}
+
+.reg-form span {
+	padding-top: 15px;
+}
+
+.reg-form a {
+	text-align: center;
+	color: #fff;
+	padding-top: 2em;
+}
+
+.btn-success {
+	width: 100%;
+}
+
+.modal-content {
+	background-color: #242424;
+}
+
+.modal-header {
+	border-bottom: 1px solid #292828;
+}
+
+.modal-footer {
+	border-top: 1px solid #292828;
+}
+
+.pre-reg-info-body h5 {
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.pre-reg-info-title p {
+	font-weight: 300;
+}
+
+.pre-reg-info-title b {
+	font-weight: 600;
+}
+
+.href-link-coonect {
+	color: #fafafa;
+}
+
+.href-link-coonect:hover {
+	text-decoration: none;
+	color: #fafafa;
+}
+
+.guide-connect {
+	background-image: url(https://www.method.gg/images/world-firsts/raids/wotlk/wotlk.jpg);
+	background-color: transparent;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 178px;
+}
+
+.guide-connect-content {
+	padding: 20px;
+	padding-top: 65px;
+}
+
+.guide-connect-title h4 {
+	font-weight: 700;
+}
