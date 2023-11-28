@@ -210,7 +210,7 @@ footer > a:hover {
 	height:	90vh;
 }
 
-.reg-title-page {
+.reg-title-page, .content-container-title {
 	padding-top: 3em;
 	border-bottom: 1px solid #3d4347;
 	padding-bottom: 1em;
