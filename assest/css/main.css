@@ -163,12 +163,12 @@ li .nav-link:hover {
 }
 
 .md-4-img {
-	padding: 15px;
+	padding-top: 15px;
 	text-align: center;
 }
 
 .news-body {
-	padding: 15px;
+	padding-bottom: 15px;
 }
 
 .news-body h5 {
