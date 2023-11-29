@@ -34,8 +34,6 @@ body {
   }
 }
 
-
-
 li .nav-link {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -303,4 +301,8 @@ footer > a:hover {
 
 .guide-connect-title h4 {
 	font-weight: 700;
+}
+
+.connect-container-body p {
+	padding-top: 2em;
 }
