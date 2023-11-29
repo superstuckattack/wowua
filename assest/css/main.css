@@ -15,6 +15,27 @@ body {
 	margin-top: .5em;
 }
 
+.nav-item > .active {
+	font-weight: 800;
+	color: #007bff;
+}
+
+.nav-item > .active:hover {
+	color: #007bff;
+	animation: nav-active-hover-color-1 .5s forwards;
+}
+
+@keyframes nav-active-hover-color-1 {
+  from {
+   color: #007bff;
+  }
+  to {
+    color: #007bff;
+  }
+}
+
+
+
 li .nav-link {
 	text-transform: uppercase;
 	font-weight: 700;
