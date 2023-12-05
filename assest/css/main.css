@@ -361,3 +361,14 @@ footer > a:hover {
 	color: grey;
 	pointer-events: none;
 }
+
+.news-title-name {
+	color: #fff;
+	font-size: 1.75em;
+	font-weight: 800;
+}
+
+.news-title-name:hover {
+	color: #007bff;
+	text-decoration: none;
+}
