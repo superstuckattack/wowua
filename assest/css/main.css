@@ -324,3 +324,40 @@ footer > a:hover {
 	padding-top: .75em;
 	background-color: transparent;
 }
+
+.page-link-pagination {
+	font-size: 1.1em;
+	font-weight: 600;
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #fafafa;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.page-link-pagination:hover {
+	position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.news-container nav {
+	padding-top: 2.75em;
+}
+
+.pi-active {
+	color: #007bff;
+}
+
+.pi-deactive {
+	color: grey;
+	pointer-events: none;
+}
