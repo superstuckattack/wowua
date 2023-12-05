@@ -302,3 +302,24 @@ footer > a:hover {
 .connect-container-body p {
 	padding-top: 2em;
 }
+
+.fullstory-container {
+	padding-top: 4em;
+}
+
+.fullstory-poster {
+	background-image: url(https://i.imgur.com/OWCT6iA.png);
+	background-color: transparent;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 275px;
+}
+
+.fullstory-content {
+	padding-top: 1em;
+}
+
+.breadcrumb {
+	background-color: transparent;
+}
