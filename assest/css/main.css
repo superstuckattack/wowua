@@ -225,10 +225,6 @@ footer > a:hover {
 	color: #006CDF;
 }
 
-.reg-wrapper {
-	height:	90vh;
-}
-
 .reg-title-page, .content-container-title {
 	padding-top: 3em;
 	border-bottom: 1px solid #3d4347;
