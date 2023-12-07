@@ -372,3 +372,11 @@ footer > a:hover {
 	color: #007bff;
 	text-decoration: none;
 }
+
+/* Fixed Area*/
+	.reg-wrapper {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+
+/* FIXED AREA end */
