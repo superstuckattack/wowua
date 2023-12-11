@@ -384,6 +384,12 @@ footer > a:hover {
 	}
 /* FIXED AREA end */
 
+<<<<<<< HEAD
 
 
 /*UPD v2*/
+=======
+.list-group-item {
+    background-color: transparent;
+}
+>>>>>>> fb6c11e4b11898af61d863c274a5303d81770cd4
