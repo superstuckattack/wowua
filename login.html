@@ -54,19 +54,26 @@
     <!-- CP login page -->
     <div class="container text-center login-page">
       <form class="form-signin">
-        <img class="mb-4" src="/docs/4.6/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <img class="mb-4" src="https://wow.sumy.ua/favicon.ico" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Вхід у особистий кабінет</h1>
+        <label for="inputEmail" class="sr-only">Ім'я користувача (логін)</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Ім'я користувача (логін)" required autofocus>
+        <label for="inputPassword" class="sr-only">Пароль</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Пароль" required>
+        <br>
         <div class="checkbox mb-3">
           <label>
-            <input type="checkbox" value="remember-me"> Remember me
+            <input type="checkbox" value="remember-me"> Запам'ятати мене
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017-2022</p>
+          <div class="reCAPTCHA">
+            <div class="g-recaptcha" data-sitekey="6LcP2SUTAAAAAAKUzGqUaUMPsh9fT3J_vNDicOjw" style='margin:10px auto'>
+                      <iframe title="reCAPTCHA" role="presentation" name="a-w4enjt658zk0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcP2SUTAAAAAAKUzGqUaUMPsh9fT3J_vNDicOjw&amp;co=aHR0cHM6Ly93b3cuc3VteS51YTo0NDM.&amp;hl=en&amp;v=-QbJqHfGOUB8nuVRLvzFLVed&amp;size=normal&amp;cb=tt5r0g49o0uz" bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:0,&quot;h&quot;:0,&quot;abs_x&quot;:0,&quot;abs_y&quot;:0}" width="auto" height="78" frameborder="0"></iframe>
+                    </div>
+          </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Увійти</button>
+        <br>
+        <a href="#">Відновити пароль</a>
       </form>
     </div>
     <!-- CP login page end -->
