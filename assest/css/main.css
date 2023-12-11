@@ -521,3 +521,18 @@ footer > a:hover {
 .tab-pane {
 	padding: 15px;
 }
+
+.announce-container {
+	max-height: 540px;
+}
+
+.big-announce img  {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.mini-announce img {
+	max-height: 250px;
+	width: auto;
+}
