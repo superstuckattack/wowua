@@ -536,3 +536,10 @@ footer > a:hover {
 	max-height: 250px;
 	width: auto;
 }
+
+
+@media (max-width: 768px) { 
+	.news-container-body {
+		display: none;
+	}
+}
